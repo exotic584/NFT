@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.card {
+    background-color: hsl(216, 50%, 16%);
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 25px 25px 70px 10px hsl(217, 54%, 8%);
+}
+
+.card > img {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+}
+
+h2 {
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.content {
+    font-size: 18px;
+    font-weight: 400;
+    width: 300px;
+    color: hsl(215, 51%, 70%);
+    margin-bottom: 1.5rem;
+}
+
+.status {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+
+.status-bc {
+    color: hsl(178, 100%, 50%);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: 600;
+}
+
+.status-c {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: hsl(215, 51%, 70%);
+    font-weight: 400;
+}
+
+.line {
+    border: 1px solid hsl(215, 32%, 27%);
+    width: auto;
+    margin-bottom: 1rem;
+}
+
+.profile > img {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: hsl(215, 51%, 70%);
+}
+
+mark {
+    color: hsl(0, 0%, 100%);
+    background-color: transparent;
+}
